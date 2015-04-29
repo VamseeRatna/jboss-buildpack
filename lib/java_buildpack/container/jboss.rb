@@ -66,7 +66,7 @@ module JavaBuildpack
       end
 
       def root
-        webapps + 'ROOT.war'
+        webapps + 'ROOT.ear'
       end
 
       def update_configuration
