@@ -62,7 +62,7 @@ module JavaBuildpack
       end
 
       def create_dodeploy
-        FileUtils.touch(webapps + 'ROOT.war.dodeploy')
+        FileUtils.touch(webapps + 'ROOT.ear.dodeploy')
       end
 
       def root
