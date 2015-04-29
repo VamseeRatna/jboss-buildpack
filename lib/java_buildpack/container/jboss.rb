@@ -51,7 +51,7 @@ module JavaBuildpack
 
       # (see JavaBuildpack::Component::VersionedDependencyComponent#supports?)
       def supports?
-        web_inf? && !JavaBuildpack::Util::JavaMainUtils.main_class(@application)
+        
       end
 
       private
