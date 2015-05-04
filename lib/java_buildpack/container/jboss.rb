@@ -86,7 +86,7 @@ module JavaBuildpack
       end
 
       def web_inf?
-        
+        (@application.root + 'META-INF').exist?
       end
 
     end
